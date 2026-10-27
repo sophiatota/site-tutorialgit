@@ -3,22 +3,25 @@
 }
 
 body{
-    background-image: url("../img/linus.jpg");
-    /*Define uma imagem como plano de fundo*/   
-    background-size: 1290px auto;
-    background-position: center top;
-    background-repeat: no-repeat;
+    margin: 0;
+    background-color: rgba(247, 245, 240, 0.966);
+    color: rgb(0, 0, 0);
+    /*a fonte só vai aparecer se no computador tiver instalado*/
+    font-family: Arial, Helvetica,sans-serif ;
+    font-size: 16px;
+    /*se a arial não tiver instalda a outra vai ser,*/
+    /*line-height: 9.5;*/
 }
 
 h1, h2, h3 {
-    color:  #a40753;
+    color:  #a40707e3;
 }
 
 h1{
     font-size: 40px;
     margin-bottom: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 5px;
+    font-family: cursive;
+    letter-spacing: 3px;
 }
 h2{
     font-size: 26px;
@@ -71,9 +74,7 @@ code, pre{
 
 .subtitulo{
     max-width: 1000px;
-    /*altera o subtituo*/
-    background-color: rgba(3, 0, 0, 0.781);
-    border-radius: 5px;
+    /*altera o subtituo*/ 
 }
 .menu-lista{
     /*zera todas as margin*/
@@ -104,8 +105,8 @@ code, pre{
 
 .secao{
     padding: 72px 0;
-    background-color:  rgb(220, 93, 20);;
-    border: 1px solid rgb(255, 255, 255);
+    /*background-color:  rgb(220, 93, 20);;*/
+    /*border: 1px solid rgb(255, 255, 255);*/
     border-radius: 8px;
     /*padding: 1px 0*/
     /*MUDA A MARGEEEM O ESPAÇO GIGANTEEE*/
@@ -114,7 +115,7 @@ code, pre{
 .titulo-secao{
     margin-bottom: 32px;
     padding-left: 12px;
-    border-left: 5px solid rgb(255, 255, 255);
+    border-left: 5px solid rgb(247, 4, 4);
     border-radius: 5px;
     /*border-style: dotted;*/
 }
@@ -127,11 +128,12 @@ code, pre{
 
 .card{
     padding: 24px;
-    background-color: cornsilk;
-    border: 1px solid rgb(220, 93, 20);
+    background-color: #ffffff;
+    /*border: 1px solid rgb(220, 93, 20);*/
     border-radius: 10px;
     /*box-shadow: 0 10px 30px rgb(0, 0, 0);*/
     box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+      border-left: 5px solid rgb(26, 25, 102);
 
 }
 .lista-tecnologias{
