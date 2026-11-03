@@ -101,6 +101,7 @@ code, pre{
     text-decoration: none;
     text-align: center;
     
+    
 }
 
 .secao{
@@ -133,7 +134,7 @@ code, pre{
     border-radius: 10px;
     /*box-shadow: 0 10px 30px rgb(0, 0, 0);*/
     box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
-      border-left: 5px solid rgb(26, 25, 102);
+    border-left: 5px solid rgb(26, 25, 102);
 
 }
 .lista-tecnologias{
