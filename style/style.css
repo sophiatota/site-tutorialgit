@@ -11,17 +11,12 @@ body{
     font-size: 16px;
     /*se a arial não tiver instalda a outra vai ser,*/
     /*line-height: 9.5;*/
-     background-image: url("/img/gitli.png");
+    background-image: url(../img/gitli.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-body {
-   
-}
-
 
 
 h1, h2, h3 {
